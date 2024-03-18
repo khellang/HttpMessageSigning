@@ -18,10 +18,12 @@
     <MinVerTagPrefix>v</MinVerTagPrefix>
 
     <PackageTags>http;message;signing;signature</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
     <None Include="../../icon.png" Pack="true" PackagePath="/" />
   </ItemGroup>
 </Project>
